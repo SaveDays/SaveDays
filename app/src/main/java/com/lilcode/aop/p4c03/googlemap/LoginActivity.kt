@@ -13,6 +13,7 @@ import kotlinx.android.synthetic.main.activity_login.et_pw
 class LoginActivity : AppCompatActivity() {
 
     private var firebaseAuth : FirebaseAuth? = null
+    var gel=null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
